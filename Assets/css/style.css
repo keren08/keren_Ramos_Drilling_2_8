@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Marhey", cursive;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(242, 2, 229);
+  background: linear-gradient(158deg, rgb(242, 2, 229) 0%, rgb(141, 58, 173) 51%, rgb(103, 12, 128) 90%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  color: white;
+}
+
+.form__input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 2%;
+}
+.form__input__text {
+  border-radius: 15px;
+  transition: transform 1s;
+}
+.form__input__text:hover {
+  background-color: black;
+  transform: rotate(360deg);
+}
+.form__input__buton {
+  border-radius: 15px;
+  transition: transform 0.9s;
+}
+.form__input__buton:hover {
+  transform: translate(200%, 200%);
+}
+
+/*# sourceMappingURL=style.css.map */
